@@ -115,7 +115,7 @@ namespace CBTDWeb.Pages.Cart
 			_unitOfWork.Commit();
 
 			//stripe settings 
-			var domain = "https://localhost:7025/";
+			var domain = "http://holo74-001-site1.atempurl.com/";
 			var options = new SessionCreateOptions
 			{
 				PaymentMethodTypes = new List<string>
